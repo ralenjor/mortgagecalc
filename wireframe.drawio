@@ -19,7 +19,7 @@
                 <mxCell id="6" value="&amp;lt;CalculateButton /&amp;gt;&lt;div&gt;[ CALCULATE]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=28;" vertex="1" parent="1">
                     <mxGeometry x="100" y="540" width="650" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=28;" vertex="1" parent="1">
+                <mxCell id="7" value="&amp;lt;PaymentDisplay /&amp;gt;&lt;div&gt;&quot; $1,945.09 is your payment &quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=28;" vertex="1" parent="1">
                     <mxGeometry x="100" y="680" width="650" height="150" as="geometry"/>
                 </mxCell>
             </root>

@@ -25,9 +25,9 @@ const calculatePayment = () => {
 }
 
   return (
-      <div style={{ padding: '20px' }}>
+      <div className="calculator-card">
     <h1>Mortgage Calculator</h1>
-      <div>
+      <div className="input-group">
         <label>Loan Balance: </label>
         <input type="number" 
          value={balance}
@@ -35,7 +35,7 @@ const calculatePayment = () => {
          onChange={(e) => setBalance(Number(e.target.value))} />
       </div>
         
-      <div style={{ marginTop: '10px' }}>  
+      <div className="input-group">
         <label>Annual Percentage Rate: </label>
         <input type="number"
          value={rate}
@@ -43,7 +43,7 @@ const calculatePayment = () => {
          step="0.01"
          onChange={(e) => setRate(Number(e.target.value))} />
       </div>
-      <div style={{ marginTop: '10px' }}>
+      <div className="input-group">
       <label>Loan Term: </label>
       <select
       value={term}
@@ -62,7 +62,7 @@ const calculatePayment = () => {
       Calculate Payment
       </button>
     <div id="output" data-testid="output" style={{ marginTop: '30px', fontWeight: 'bold' }}>
-    ${monthlyPayment.toFixed(2)} is your payment
+    <span>${monthlyPayment.toFixed(2)} is your payment</span>
     </div>
     </div>
   );
